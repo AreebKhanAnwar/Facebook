@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(240,242,245);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    position: absolute;
+    top: 190px;
+    left: 14vw;
+    width: 550px;
+}
+.first h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.first p{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.second{
+    height: 380px;
+    width: 400px;
+    background: white;
+    float: right;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.second form input{
+    width: 360px;
+    height: 50px;
+    margin: 20px auto 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 179, 179);
+}
+.second form button{
+    height: 50px;
+}
+.second a{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+}
+.second hr{
+    width: 360px;
+    display: flex;
+    margin-left: 20px;
+}
+.second .create{
+    height: 60px;
+    width: 220px;
+    background: rgb(66,183,42);
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    margin: 30px auto;
+}
